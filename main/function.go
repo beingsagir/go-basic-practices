@@ -7,6 +7,7 @@ func main(){
 	fmt.Println(add(2, 132))
 	a, b := swap("hello", "world")
 	fmt.Println(a, b)
+	fmt.Println(split(17))
 }
 
 
@@ -26,4 +27,12 @@ func anotherAdd (a, b int) int{
 
 func swap(a, b string) (string, string){
 	return b, a
+}
+
+// naked return function
+
+func split(a int) (l int, k int){
+	k= a * 4/9
+	l =  a - k
+	return
 }
