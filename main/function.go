@@ -35,7 +35,3 @@ func split(a int) (l int, k int) {
 	l = a - k
 	return
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 98a017f0956be65622c9984cd3fc240433ed2ae5
